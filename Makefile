@@ -14,6 +14,10 @@ all: sl
 sl: sl.c sl.h
 	$(CC) $(CFLAGS) -o sl sl.c -lncurses
 
+deploy:
+	rm /usr/loca/bin/sl
+	mv ./sl /usr/local/bin/sl
+
 clean:
 	rm -f sl
 
