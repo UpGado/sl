@@ -1,10 +1,7 @@
-SL(1): Cure your bad habit of mistyping
-=======================================
+Original sl executable does not respond to Cntl-C signal. I changed that and added my name on the train just for fun :)
 
-SL (Steam Locomotive) runs across your terminal when you type "sl" as
-you meant to type "ls". It's just a joke command, and not useful at
-all.
 
-Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
+
+Origianl program Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
 
 ![](demo.gif)
